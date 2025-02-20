@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Viewing - Admin Dashboard</title>
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Admin Dashboard - Reports</h1>
+           
+        </div>
+    </header>
+
+    <!-- Report Viewing Section -->
+    <main>
+        <div class="container">
+            <section class="filters">
+                <h2>Filter Reports</h2>
+                <form>
+                    <label for="date-range">Date Range:</label>
+                    <input type="date" id="start-date" name="start-date" placeholder="02 - 06 -2024">
+                    <input type="date" id="end-date" name="end-date" placeholder="02 - 08 -2024" >
+
+                    <label for="status">Status:</label>
+                    <select id="status" name="status">
+                        <option value="all">All</option>
+                        <option value="completed">Completed</option>
+                        <option value="pending">Pending</option>
+                        <option value="in-progress">In Progress</option>
+                    </select>
+
+                    <button type="submit">Apply Filters</button>
+                </form>
+            </section>
+
+            <section class="report-table">
+                <h2>Report Details</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Report ID</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#001</td>
+                            <td>2025-01-05</td>
+                            <td>Completed</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>#002</td>
+                            <td>2025-01-06</td>
+                            <td>Pending</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>#003</td>
+                            <td>2025-01-07</td>
+                            <td>In Progress</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>#004</td>
+                            <td>2025-01-08</td>
+                            <td>Completed</td>
+                            <td><a href="#">View</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>HRM System  |  Admin Panel  | 2025</p>
+            <p>&copy; 2025 Employee Management System</p>
+        </div>
+    </footer>
+</body>
+</html>

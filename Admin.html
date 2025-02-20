@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HRM System</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>HRM Admin Panel</h1>
+    <div><button class="toggle-btn" id="toggleBtn">☰</button> </div>
+  </header>
+   
+  <div class="main-container">
+     
+     
+     <div class="sidebar" id="sidebar">
+       <h2>Admin</h2>
+       <hr>
+       <a href="Admin.html" class="active"><span class="material-icons">dashboard</span> Dashboard</a>
+       <a href="Employees.html"><span class="material-icons">groups</span> Employees</a>
+       <a href="#"><span class="material-icons">event_available</span> Attendance</a>
+       <a href="#"><span class="material-icons">assignment</span> Leave Management</a>
+       <a href="Report.html"><span class="material-icons">bar_chart</span> Reports</a>
+       <a href="#"><span class="material-icons">settings</span> Settings</a>
+       <a href="#"><span class="material-icons">logout</span> Log Out</a>
+     </div>
+    
+     <!-- Content Section -->
+    <div class="content">
+      <div class="analytics">
+        <div class="card">
+           <div>
+             <div class="numbers">1,504</div>
+             <div class="cardName">Total Employees</div>
+           </div>
+           <div class="iconBx">
+             <span class="material-icons">diversity_3</span>
+           </div>
+         </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">10</div>
+            <div class="cardName">Total Departments</div>
+          </div>
+          <div class="iconBx">
+            <span class="material-icons">account_balance</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">15</div>
+            <div class="cardName">Today's Attendance</div>
+          </div>
+          <div class="iconBx">
+            <span class="material-icons">calendar_month</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div>
+            <div class="numbers">5</div>
+            <div class="cardName">Ongoing Projects</div>
+          </div>
+          <div class="iconBx">
+            <span class="material-icons">task</span>
+          </div>
+        </div>
+
+
+      </div>
+
+     <div class="leave">
+        <div class="stat">
+          <img src="assets/graph.jpg" alt="graph">
+        </div>
+
+        <div class="emplist">
+          <div class="cardHeader">
+            <h2>Employees On Leave</h2>
+          </div>
+
+          <table>
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer02.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Mr.Bandara Dissanayake<br> <span>HR</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer01.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>MR.Pawan de Silva<br> <span>IT</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer02.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Ms.Parami Perera<br> <span>HR</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer01.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Miss.Sandali Wickramage<br> <span>Marketing</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer02.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Mr.Kamal Rathnayake<br> <span>HR</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer01.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Mr.Amit Bandara <br> <span>IT</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer01.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Ms.Sarani Pathirana<br> <span>Marketing</span></h4>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="60px">
+                    <div class="imgBx"><img src="assets/customer02.jpg" alt=""></div>
+                </td>
+                <td>
+                    <h4>Mr.Amith Pussalla <br> <span>HR</span></h4>
+                </td>
+            </tr>
+          </table>
+          
+        </div>
+      
+      </div>
+     
+
+
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>HRM System  |  Admin Panel  | 2025</p>
+    <p>&copy; 2025 Employee Management System</p>
+  </footer>
+
+  <script src="Admin.js"></script>
+</body>
+</html>
